@@ -1,0 +1,5 @@
+conda create --name jupyter_plot_stan numpy pandas jupyter seaborn matplotlib pystan
+
+source activate jupyter_plot_stan
+
+conda env export > environment.yml
